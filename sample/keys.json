@@ -1,0 +1,14 @@
+{
+  "budget": 2,
+  "bad_key_code": "E_BAD_KEY",
+  "dup_code": "E_DUP_KEY",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "nodes": [], "records": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "insert", "key": 1 },
+    { "id": 2, "kind": "insert", "key": 2 },
+    { "id": 3, "kind": "insert", "key": 3 },
+    { "id": 4, "kind": "find", "key": 2 },
+    { "id": 5, "kind": "find", "key": 4 }
+  ]
+}
